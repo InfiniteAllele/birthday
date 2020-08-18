@@ -9,7 +9,7 @@ body {
 body {
   background: -webkit-radial-gradient(#42f4b0, #1fbedd);
   -moz-radial-gradient: (#42f4b0, #1fbedd);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #cake {
