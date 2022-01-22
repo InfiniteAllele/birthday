@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -115,10 +116,6 @@ audio {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-
-  h1 {
-    font-size: 1.4em;
-  }
 }
 
 a {
