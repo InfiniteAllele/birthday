@@ -3,11 +3,13 @@
 
 <head>
     <title>Happy Birthday Rashmi</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body id="clk">
+<body id="clk" onload="message()">
     <audio class="song" loops controls>
         <source src="https://www.8notes.com/school/mp32/piano/happy_birthday.mp3"></audio>
     <script>
@@ -190,11 +192,13 @@
         <rect x="10" y="475.571" fill="#fefae9" width="180" height="5" />
     </svg>
     <div class="text">
-        <h1>Happy Birthday Rashmi, The bestest of friends of the one who is the dearest to me.</h1>
-        <p>
-            <h2>From someone who, though haven't met you yet, knows you pretty well to be very good friends.</h2></a>
-        </p>
+        <h1 class="animate__animated animate__zoomIn animate__infinite animate__slower">Happy birthday Rashmi</h1>
+        <h2 id="she"></h2>
+        <br><br>
+        <h2 id="from"></h2>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js/others.js"></script>
 
 </html>
